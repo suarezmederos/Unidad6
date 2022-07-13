@@ -15,7 +15,7 @@ public class Ejercicio8App {
 		
 		int tamano = 10;
 		double crear [] = new double [tamano];
-		
+	
 		for(int i=0; i < tamano ; i++){
 	    	String inicio = JOptionPane.showInputDialog("Introduce un numero");
 			double inicioConvert = Double.parseDouble(inicio);
